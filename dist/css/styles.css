@@ -475,8 +475,10 @@ mark,
 }
 
 .img-fluid {
+  min-width: 100%;
   max-width: 100%;
-  height: auto;
+  max-height: 200px;
+  object-fit: cover;
 }
 
 .img-thumbnail {
@@ -10237,4 +10239,8 @@ form .row:first-child .floating-label-form-group {
 
 .copyright {
   background-color: #1a252f;
+}
+
+.shopHeader {
+  text-align: center;
 }
